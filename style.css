@@ -43,6 +43,8 @@ h5 {
     background-color: #343a40;
     height: 80px;
     font-size: 16px;
+    position: fixed;
+    width: 100%;
 }
 
 .adaonline {
@@ -62,7 +64,7 @@ h5 {
     background-color: #1abc9c;
     text-align: center;
     height: 390px;
-    padding-top: 100px;
+    padding-top: 180px;
     padding-bottom: 100px;
 }
 
@@ -82,8 +84,8 @@ p {
 
 #seccion-portfolio {
     text-align: center;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .linea-portfolio {
