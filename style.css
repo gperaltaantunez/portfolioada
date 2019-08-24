@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;   
+    display: inline-block;  
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h3 { 
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #343a40;
+    font-size: 35px;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: #343a40;
+    height: 80px;
+    font-size: 16px;
+}
+
+.adaonline {
+    margin-left: 175px;
+    padding-top: 20px;
+    width: 250px;
+    display: inline-block;
+}
+
+.botones { 
+    display: inline-block;
+    margin-left: 500px;
+    font-size: 12px;
+}
+
+.principal {
+    background-color: #1abc9c;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    height: 200px;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    padding-right: 25px;
+    font-weight: 800;
+}
+
+#seccion-portfolio {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.linea-portfolio {
+    border-bottom: 3px solid #343a40;
+    margin: 25px;
+    background-color: #343a40;
+    width: 100px;
+    height: 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+#seccion-about {
+    background-color: #1abc9c;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+
+.linea-about {
+    border-bottom: 3px solid #ffffff;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: #ffffff;
+    width: 100px;
+    height: 2px;
+    text-align: center;
+}
+
+.text-about1, .text-about2 { 
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    margin: 3%;
+}
