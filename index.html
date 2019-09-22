@@ -3,68 +3,74 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mi CV Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="header">
-        <div class="adaonline">
-            <h1>ADA ONLINE</h1>
-        </div>
-        <div class="botones">
-            <a href="#seccion-portfolio">
-                <p>PORTFOLIO</p>
-            </a>
-            <a href="#seccion-about">
-                <p>ABOUT</p>
-            </a>
-            <a href="#seccion-contacto">
-                <p>CONTACT</p>
+    <!-- NAVIGATION -->
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#header-content">
+                <h1>ADA ONLINE</h1>
             </a>
         </div>
-    </div>
-    <div class="principal">
-        <img src="./Imagenes/foto.svg">
+        <ul class="navbar-options">
+            <li class="navbar-list"><a href="#seccion-portfolio">PORTFOLIO</a></li>
+            <li class="navbar-list"><a href="#seccion-about">ABOUT</a></li>
+            <li class="navbar-list"><a href="#seccion-contacto">CONTACT </a></li>
+        </ul>
+        <button class="navbar-button">MENU</button>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header id="header-content">
+        <img class="img-profile" alt="Profile picture" src="./Imagenes/foto.svg">
         <h2>HTML Y CSS</h2>
         <h3>Aprendiendo las bases de front end</h3>
-    </div>
-    <div id="seccion-portfolio">
+    </header>
+
+    <!-- SECTIONS -->
+
+    <section id="seccion-portfolio">
         <h4>PORTFOLIO</h4>
         <div class="linea-portfolio"></div>
-        <div>
-            <img src="./Imagenes/cabin.png">
-            <img src="./Imagenes/cake.png">
-            <img src="./Imagenes/circus.png">
+        <div class="flex-container">
+            <div class="img-flex-item"><img alt="Cabin Picture" src="./Imagenes/cabin.png"></div>
+            <div class="img-flex-item"><img alt="Cake Picture" src="./Imagenes/cake.png"></div>
+            <div class="img-flex-item"><img alt="Circus Picture" src="./Imagenes/circus.png"></div>
+            <div class="img-flex-item"><img alt="Game Picture" src="./Imagenes/game.png"></div>
+            <div class="img-flex-item"><img alt="Safe Picture" src="./Imagenes/safe.png"></div>
+            <div class="img-flex-item"><img alt="Submarine Picture" src="./Imagenes/submarine.png"></div>
         </div>
-        <div>
-            <img src="./Imagenes/game.png">
-            <img src="./Imagenes/safe.png">
-            <img src="./Imagenes/submarine.png">
-        </div>
-    </div>
-    <div id="seccion-about">
+    </section>
+    <section id="seccion-about">
         <h5>ABOUT</h5>
         <div class="linea-about"></div>
-        <div class="text-about1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aperiam vel, corrupti
+        <article class="text-about1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aperiam vel,
+            corrupti
             cupiditate totam, ut,
             odio deserunt ad aliquam esse illum. Vitae rem repellat, consectetur reprehenderit dignissimos nulla tenetur
-            amet.</div>
-        <div class="text-about2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deleniti, earum possimus
-            consectetur officia
-            ducimus totam quia laboriosam illum modi, aliquam animi repudiandae, mollitia ratione dolorum voluptate
-            harum quis laudantium.</div>
-    </div>
-    <div id="seccion-contacto">
+            amet.</article>
+        <article class="text-about2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aperiam vel,
+            corrupti cupiditate totam, ut, odio deserunt ad aliquam esse illum. Vitae rem repellat, consectetur
+            reprehenderit dignissimos nulla tenetur
+            amet.</article>
+    </section>
+    <section id="seccion-contacto">
         <div class="header_form">
-            <h6>CONTACT ME</h6>
+            <h4>CONTACT ME</h4>
             <div class="linea-contact"></div>
         </div>
         <div class="form_contacto">
             <form action="/contacto" method="post">
                 <label><input type="text" name="name" placeholder="Name" required="Please enter your name"></label>
-                <label><input type="text" name="email" placeholder="Email Address"
+                <label><input type="email" name="email" placeholder="Email Address"
                         required="Please enter your email address"></label>
                 <label><input type="number" name="phone_number" placeholder="Phone Number"
                         required="Please enter your phone number"></label>
@@ -72,7 +78,7 @@
                 <div class="send"><input type="submit" value="Send"></div>
             </form>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
