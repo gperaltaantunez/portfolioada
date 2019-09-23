@@ -84,7 +84,7 @@ ul {
 
 .fa, .fas {
     color: #ffffff;
-    padding: 5px;
+    padding-left: 5px;
 }
 
 /*==== HEADER ====*/
@@ -242,25 +242,6 @@ input[type=submit]:hover {
     padding: 15px 0px 15px 15px;
 }
 
-@media (max-width: 992px) {
-    .navbar-brand {
-        margin-left: 50px;
-        position: absolute;
-    }
-
-    .navbar-options { 
-        display: none;
-    }
-
-    .navbar-button {
-        display: block;
-    }
-    .text-about1, .text-about2 {
-        display: block;
-        width: 90%;
-    }
-}
-
 /* ===== FOOTER =====*/
 
 footer {
@@ -319,4 +300,33 @@ footer {
     background-color: #1a252f;
     height: 80px;
     color: #ffffff;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        margin-left: 50px;
+        position: absolute;
+    }
+
+    .navbar-options { 
+        display: none;
+    }
+
+    .navbar-button {
+        display: block;
+    }
+    .text-about1, .text-about2 {
+        display: block;
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-footer {
+        margin-bottom: 50px;
+    }
 }
