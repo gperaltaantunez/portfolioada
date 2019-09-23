@@ -261,3 +261,39 @@ input[type=submit]:hover {
     }
 }
 
+/* ===== FOOTER =====*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-text-footer {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
