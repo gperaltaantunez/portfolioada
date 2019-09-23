@@ -59,7 +59,7 @@ ul {
 }
 
 .navbar-list:hover {
-    color: #15947a;
+    color: #1abc9c;
 }
 
 .navbar-button {
@@ -296,4 +296,27 @@ footer {
     width: 50px;
     height: 50px;
     font-size: 20px;
+    transition: all 0.5s;
+}
+
+.footer-icons:hover {
+    background-color: #ffffff;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+.footer-link {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #1a252f;
+    height: 80px;
+    color: #ffffff;
 }
